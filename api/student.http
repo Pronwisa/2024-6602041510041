@@ -1,0 +1,12 @@
+### Insert Student 1
+POST http://localhost:8080/api/students
+Authorization: Bearer 7ec9ecfdd897f9c2e41d44f7650e503018ada099db73baa262bd4f0461b523154fdb35b4788b0c78cc589f3e610349ae9ff66ba873d3361916b9c5c06041429ea64df36ea484ea5d0f41215c6ef7aafa247b69fcca310701edc3e7a5d7e74e6e8be1baac0d0673474122f8092f8d64343862976b8d4a74a370c7bbb6231019dc
+Content-Type: application/json
+
+{
+  "data": {
+    "name": "napat",
+    "mobile": "0965282723",
+    "cardId": "6602041520128"
+  }
+}
